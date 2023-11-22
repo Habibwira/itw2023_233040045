@@ -12,6 +12,7 @@ h1{
 }
 .p1{
        text-align: center;
+       color: orange;
 }
 .p2{
        text-align: center;
@@ -27,5 +28,5 @@ h3{
 }
 
 .instagram{
-    color: orange;
+    color: white;
 }

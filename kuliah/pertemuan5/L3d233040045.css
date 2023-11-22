@@ -1,31 +1,41 @@
 html,head
 body{
-       background-color: aqua;
+       background-image: url(background.png);
+       background-repeat: no-repeat;
+       background-size: 100% 40%;
        font-family: Georgia, 'Times New Roman', Times, serif;
        text-align: justify;
+       margin-left: auto;
 }
-h1{    
-       margin-left: 200px;
+h1{
        font-size: 60px;
        font-family: comic sans MS;
        color:darkblue
+       
 }
+h1{
+    margin-left: 100px;
+}
+h3{
+    color: black;
+}
+
+.instagram {
+       color: white;
+       font-variant: small-caps;
+}
+
 .p1{
        text-align: center;
+       color: orange;
 }
 .p2{
        text-align: center;
+       
 }
+
+
 h4{
        font-style: italic;
        text-align: right;
-}
-
-h3{
-    color: black;
-    
-}
-
-.instagram{
-    color: orange;
 }
