@@ -7,10 +7,12 @@ body{
        text-align: justify;
        margin-left: auto;
 }
-h1{
+h1{    
+       text-align: center;
        font-size: 60px;
        font-family: comic sans MS;
        color:darkblue
+       
        
 }
 h1{
@@ -18,11 +20,20 @@ h1{
 }
 h3{
     color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+
+    
+    
 }
 
+
 .instagram {
-       color: white;
+       color: red;
        font-variant: small-caps;
+       margin-left: 75px;
 }
 
 .p1{
@@ -37,5 +48,6 @@ h3{
 
 h4{
        font-style: italic;
-       text-align: right;
+       text-align: center;
+       margin-left: 100px;
 }
