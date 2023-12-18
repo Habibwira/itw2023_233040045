@@ -10,7 +10,7 @@
             width: 60%;
             height: 600px;
             border:10px solid;
-            margin: 50px auto;
+            margin: 500px auto;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -26,16 +26,22 @@
 
         }
     </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 <body>
     
     <div class="container">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box"data-aos="fade-right"></div>
+        <div class="box"data-aos="fade-up"></div>
+        <div class="box"data-aos="fade-left"></div>
 
     </div>
     
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
 </html>
