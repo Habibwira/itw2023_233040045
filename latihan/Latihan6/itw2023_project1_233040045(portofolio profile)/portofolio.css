@@ -135,14 +135,23 @@ section{
   margin: 20px 0px 20px;
   line-height: 1.2;
 }
+
+section .main-content p {
+  color: #000;
+}
+
 .main-content p{
   font-size: var(--p-font);
   font-weight: 400;
   width: 620px;
   max-width: 100%;
-  color: var(--other-color);
+  /* color: black; */
+  /* color: var(--bg-color); */
   line-height: 30px;
   margin-bottom: 15px;
+}
+.hero .main-content p {
+  color: #1b1f24;
 }
 .social{
   margin-bottom: 40px;
